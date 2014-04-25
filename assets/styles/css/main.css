@@ -1,0 +1,17 @@
+#logo {
+	float: left;
+	font-size: 5em;
+	font-family: 'Source Code Pro', 'Helvetica Neue', 'Arial', 'Helvetica';
+	font-weight: 900;
+	padding-bottom: 5px;
+}
+#logo a {
+	color: #e93030;
+	text-decoration: none;
+}
+#logo:hover {
+	text-decoration: none;
+}
+.container {
+	background-color: #f8f6e3;
+}
