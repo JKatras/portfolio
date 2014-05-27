@@ -25,10 +25,12 @@ nav ul li{
 	margin: 0 50px;
 }
 nav ul li a {
-	
 	font-size: 2.5em;
 	font-family: 'Pacifico', cursive;
 	color: #1d8c8c;
+}
+nav ul li a:hover {
+	text-shadow: 2px 2px 1px #ccc;
 }
 a {
 	text-decoration: none;
@@ -43,7 +45,17 @@ body {
 	text-align: center;
 }
 .container {
-	background-color: #f8f6e3;
+	min-height: 550px;
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f8f6e3), to(#fff));
+  /* Safari 5.1, Chrome 10+ */
+  background: -webkit-linear-gradient(top, #fff, #f8f6e3);
+  /* Firefox 3.6+ */
+  background: -moz-linear-gradient(top, #fff, #f8f6e3);
+  /* IE 10 */
+  background: -ms-linear-gradient(top, #fff, #f8f6e3);
+  /* Opera 11.10+ */
+  background: -o-linear-gradient(top, #fff, #f8f6e3);
+  
 }
 header a {
 	color: inherit;
