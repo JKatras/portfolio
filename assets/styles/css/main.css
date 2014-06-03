@@ -5,8 +5,10 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     padding: 0;
     vertical-align: baseline;
 }
+header a {
+	color: inherit;
+}
 #logo {
-	/*float: left;*/
 	font-size: 5em;
 	font-family: 'Source Code Pro', 'Helvetica Neue', 'Arial', 'Helvetica';
 	font-weight: 900;
@@ -46,17 +48,39 @@ body {
 }
 .container {
 	min-height: 550px;
-  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f8f6e3), to(#fff));
+  /*background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f8f6e3), to(#fff));*/
   /* Safari 5.1, Chrome 10+ */
-  background: -webkit-linear-gradient(top, #fff, #f8f6e3);
+  background: -webkit-linear-gradient(top, #fff, #f4ba89);
   /* Firefox 3.6+ */
   background: -moz-linear-gradient(top, #fff, #f8f6e3);
   /* IE 10 */
   background: -ms-linear-gradient(top, #fff, #f8f6e3);
   /* Opera 11.10+ */
   background: -o-linear-gradient(top, #fff, #f8f6e3);
-  
 }
-header a {
-	color: inherit;
+footer {
+	padding-top: 40px;
+}
+footer ul li {
+	display: inline-block;
+	padding: 20px;
+}
+.btn-palette {
+
+	display: block;
+	border: 1px solid #d9d9d9;
+	background-color: #f4f4f4;
+	border-radius: 27px;
+	height: 54px;
+	width: 54px;
+	color: #d9d9d9;
+}
+#or-te-ye {
+	background: linear-gradient(
+  	#e93030,
+  	#e93030 18px,
+  	#1d8c8c 18px,
+  	#1d8c8c 36px,
+  	#f8f6e3 36px
+	);
 }
