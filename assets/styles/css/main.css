@@ -50,13 +50,13 @@ body {
 	min-height: 550px;
   /*background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f8f6e3), to(#fff));*/
   /* Safari 5.1, Chrome 10+ */
-  background: -webkit-linear-gradient(top, #fff, #f4ba89);
+  /*background: -webkit-linear-gradient(top, #fff, #caec85);*/
   /* Firefox 3.6+ */
-  background: -moz-linear-gradient(top, #fff, #f8f6e3);
+  /*background: -moz-linear-gradient(top, #fff, #f8f6e3);*/
   /* IE 10 */
-  background: -ms-linear-gradient(top, #fff, #f8f6e3);
+  /*background: -ms-linear-gradient(top, #fff, #f8f6e3);*/
   /* Opera 11.10+ */
-  background: -o-linear-gradient(top, #fff, #f8f6e3);
+  /*background: -o-linear-gradient(top, #fff, #f8f6e3);*/
 }
 footer {
 	padding-top: 40px;
@@ -74,6 +74,10 @@ footer ul li {
 	height: 54px;
 	width: 54px;
 	color: #d9d9d9;
+}
+.btn-palette:hover {
+	/*drop-shadow: 2px 2px 1px #ccc;*/
+	box-shadow: 2px 2px 1px #ccc;
 }
 #or-te-ye {
 	background: linear-gradient(
