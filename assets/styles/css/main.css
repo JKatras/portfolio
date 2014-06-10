@@ -5,8 +5,21 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     padding: 0;
     vertical-align: baseline;
 }
+a, p, h1 {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
 header a {
 	color: inherit;
+}
+header p {
+	font-size: 2.5em;
+	font-family: 'Pacifico', cursive;
+	color: #1d8c8c;
 }
 #logo {
 	font-size: 5em;
@@ -26,11 +39,7 @@ nav ul li{
 	display: inline;
 	margin: 0 50px;
 }
-nav ul li a {
-	font-size: 2.5em;
-	font-family: 'Pacifico', cursive;
-	color: #1d8c8c;
-}
+
 nav ul li a:hover {
 	text-shadow: 2px 2px 1px #ccc;
 }
@@ -58,13 +67,15 @@ body {
   /* Opera 11.10+ */
   /*background: -o-linear-gradient(top, #fff, #f8f6e3);*/
 }
-footer {
-	padding-top: 40px;
+nav {
+	/*margin-top: 40px;*/
+	background-color: #e8e8e8;
 }
-footer ul li {
+nav ul li {
 	display: inline-block;
-	padding: 20px;
+	padding: 15px 20px;
 }
+
 .btn-palette {
 
 	display: block;
