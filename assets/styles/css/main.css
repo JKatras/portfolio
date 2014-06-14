@@ -34,6 +34,12 @@ header p {
 #logo:hover {
 	text-decoration: none;
 }
+h2 {
+	font-family: 'Pathway Gothic One', 'Arial', sans-serif;
+	font-size: 3em;
+	color: #e93030;
+	border-bottom: 1px dashed #c9c9c9;
+}
 nav ul li{
 	text-align: center;
 	display: inline;
@@ -54,6 +60,7 @@ li {
 }
 body {
 	text-align: center;
+	/*background-color: #f8f6e3;*/
 }
 .container {
 	min-height: 550px;
