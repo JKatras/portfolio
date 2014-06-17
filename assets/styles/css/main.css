@@ -64,6 +64,8 @@ nav ul li{
 	text-align: center;
 	display: inline;
 	margin: 0 50px;
+	display: inline-block;
+	padding: 15px 20px;
 }
 
 nav ul li a:hover {
@@ -79,6 +81,7 @@ li {
 	list-style: none;
 }
 body{
+	min-width: 480px;
 	text-align: center;
 	/*background-color: #f8f6e3;*/
 }
@@ -98,10 +101,10 @@ nav {
 	/*margin-top: 40px;*/
 	background-color: #e8e8e8;
 }
-nav ul li {
+/*nav ul li {
 	display: inline-block;
 	padding: 15px 20px;
-}
+}*/
 
 .btn-palette {
 
@@ -132,5 +135,11 @@ nav ul li {
 	}
 	h2 {
 		width: 90%;
+	}
+}
+@media all and (max-width: 600px) {
+	nav ul li {
+		margin: 0 20px;
+		padding: 10px 20px;
 	}
 }
