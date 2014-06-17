@@ -21,6 +21,9 @@ header p {
 	font-family: 'Pacifico', cursive;
 	color: #1d8c8c;
 }
+section {
+	display: inline-block;
+}
 #logo {
 	font-size: 5em;
 	font-family: 'Source Code Pro', 'Helvetica Neue', 'Arial', 'Helvetica';
@@ -39,6 +42,17 @@ h2 {
 	font-size: 3em;
 	color: #e93030;
 	border-bottom: 1px dashed #c9c9c9;
+	width: 60%;
+	margin: 15px auto;
+}
+#skills p {
+	font-family: 'Pathway Gothic One', 'Arial', sans-serif;
+	font-size: 1.5em;
+}
+#skills ul {
+	display: inline;
+	float: left;
+	margin: 0 25px;
 }
 nav ul li{
 	text-align: center;
@@ -58,7 +72,7 @@ a:hover {
 li {
 	list-style: none;
 }
-body {
+body, section {
 	text-align: center;
 	/*background-color: #f8f6e3;*/
 }
