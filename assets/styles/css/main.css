@@ -23,6 +23,7 @@ header p {
 }
 section {
 	display: inline-block;
+	width: 70%;
 }
 #logo {
 	font-size: 5em;
@@ -48,11 +49,16 @@ h2 {
 #skills p {
 	font-family: 'Pathway Gothic One', 'Arial', sans-serif;
 	font-size: 1.5em;
+	color: #424242;
 }
 #skills ul {
-	display: inline;
+	/*display: inline;*/
 	float: left;
-	margin: 0 25px;
+	width: 33%;
+	/*margin: 0 30px;*/
+}
+#skills ul li {
+	padding-bottom: 5px;
 }
 nav ul li{
 	text-align: center;
@@ -72,7 +78,7 @@ a:hover {
 li {
 	list-style: none;
 }
-body, section {
+body{
 	text-align: center;
 	/*background-color: #f8f6e3;*/
 }
@@ -119,4 +125,12 @@ nav ul li {
   	#1d8c8c 36px,
   	#f8f6e3 36px
 	);
+}
+@media all and (max-width: 799px){
+	section {
+		width: 90%;
+	}
+	h2 {
+		width: 90%;
+	}
 }
