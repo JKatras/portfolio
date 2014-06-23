@@ -68,7 +68,7 @@ nav ul li{
 	padding: 15px 20px;
 }
 
-nav ul li a:hover {
+nav ul li a.btn-palette:hover {
 	text-shadow: 2px 2px 1px #ccc;
 }
 a {
@@ -83,7 +83,8 @@ li {
 body{
 	min-width: 240px;
 	text-align: center;
-	/*background-color: #f8f6e3;*/
+	/*background: #f5f5f5 url('../../images/Watercolor_Paper_5_by_Craftmans.jpg') center top;*/
+	background: #f5f5f5 url('../../images/Watercolor_Paper_2.jpg') repeat center top;
 }
 .container {
 	min-height: 550px;
@@ -140,10 +141,14 @@ nav {
 @media all and (max-width: 610px) {
 	nav ul li {
 		margin: 0 20px;
-		padding: 10px 0px;
+		padding: 5px 0px;
 	}
 	.btn-palette {
-		/*width: 75%;*/
+		/*width: 75%;
+		height: 75%;*/
+		border-radius: 13px;
+		height: 26px;
+		width: 26px;
 	}
 	#logo {
 		font-size: 3em;
