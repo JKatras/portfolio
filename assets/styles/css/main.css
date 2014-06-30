@@ -49,6 +49,10 @@ section {
 	display: inline-block;
 	width: 70%;
 }
+#projects ul li {
+	/*float: left;
+	width: 50%;*/
+}
 nav.static ul li a {
 	font-family: 'Pathway Gothic One', 'Helvetica Neue', Arial, Helvetica;
 	font-size: 1.5em;
@@ -116,6 +120,36 @@ body{
   /*background: -ms-linear-gradient(top, #fff, #f8f6e3);*/
   /* Opera 11.10+ */
   /*background: -o-linear-gradient(top, #fff, #f8f6e3);*/
+}
+.jcarousel {
+    position: relative;
+    overflow: hidden;
+    width: 600px;
+    height: 400px;
+}
+
+/*
+This is the container of the carousel items.
+You must ensure that the position is relative or absolute and
+that the width is big enough to contain all items.
+*/
+.jcarousel ul {
+    width: 20000em;
+    position: relative;
+
+    /* Optional, required in this case since it's a <ul> element */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+These are the item elements. jCarousel works best, if the items
+have a fixed width and height (but it's not required).
+*/
+.jcarousel li {
+    /* Required only for block elements like <li>'s */
+    float: left;
 }
 nav {
 	/*margin-top: 40px;*/
