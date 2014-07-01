@@ -49,9 +49,12 @@ section {
 	display: inline-block;
 	width: 70%;
 }
-#projects ul li {
-	/*float: left;
-	width: 50%;*/
+#projects li {
+	width: 600px;
+	height: 400px;
+}
+#projects img {
+	height: 100%;
 }
 nav.static ul li a {
 	font-family: 'Pathway Gothic One', 'Helvetica Neue', Arial, Helvetica;
@@ -126,6 +129,7 @@ body{
     overflow: hidden;
     width: 600px;
     height: 400px;
+    margin: 0 auto;
 }
 
 /*
