@@ -20,9 +20,10 @@ header p, #projects p {
 	font-size: 1em;
 	font-family: 'Helvetica Neue', 'Arial', 'Helvetica';
 	font-weight: 400;
+}
+header p {
 	margin-top: 10px;
-	color: #8d8d8d;
-	
+	color: #6c6c6c;
 }
 #logo {
 	font-size: 5em;
@@ -53,13 +54,16 @@ section {
 	text-align: left;
 	padding: 0 30px;
 }
-.jcarousel-wrap p, .jcarousel-wrap h3 {
-	text-align: left;
-}
-#projects p {
+.description p {
 	display: inline;
 	color: #424242;
 	margin-top: 0;
+}
+.description p.tech {
+	color: #a3a3a3;
+}
+.jcarousel-wrap p, .jcarousel-wrap h3 {
+	text-align: left;
 }
 #projects li {
 	width: 600px;
