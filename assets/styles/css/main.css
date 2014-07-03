@@ -16,7 +16,7 @@ a, p, h1 {
 header a {
 	color: inherit;
 }
-header p {
+header p, #projects p {
 	font-size: 1em;
 	font-family: 'Helvetica Neue', 'Arial', 'Helvetica';
 	font-weight: 400;
@@ -49,6 +49,18 @@ section {
 	display: inline-block;
 	width: 70%;
 }
+.description {
+	text-align: left;
+	padding: 0 30px;
+}
+.jcarousel-wrap p, .jcarousel-wrap h3 {
+	text-align: left;
+}
+#projects p {
+	display: inline;
+	color: #424242;
+	margin-top: 0;
+}
 #projects li {
 	width: 600px;
 	height: 450px;
@@ -56,6 +68,7 @@ section {
 #projects img {
 	height: 100%;
 }
+
 nav.static ul li a {
 	font-family: 'Pathway Gothic One', 'Helvetica Neue', Arial, Helvetica;
 	font-size: 1.5em;
@@ -68,6 +81,16 @@ h2 {
 	border-bottom: 1px dashed #c9c9c9;
 	width: 60%;
 	margin: 15px auto;
+}
+#projects h3 {
+	/*font-family: 'Pathway Gothic One', 'Arial', sans-serif;*/
+	font-family: 'Helvetica Neue', 'Arial', 'Helvetica';
+	/*font-weight: 600;*/
+	font-size: 1.25em;
+	color: #e93030;
+	padding-right: 5px;
+	display: inline-block;
+	/*vertical-align: middle;*/
 }
 #skills p {
 	font-family: 'Pathway Gothic One', 'Arial', sans-serif;
@@ -126,7 +149,7 @@ body{
 }
 .jcarousel-wrap {
 	max-width: 600px;
-	margin: 10px auto;
+	margin: 10px auto 35px;
 	position: relative;
 }
 .jcarousel {
@@ -134,7 +157,7 @@ body{
     overflow: hidden;
     width: 600px;
     height: 400px;
-    margin: 0 auto;
+    margin: 0 auto 10px;
 }
 
 /*
