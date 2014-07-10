@@ -22,15 +22,27 @@ header p, #projects p {
 	font-weight: 400;
 }
 header p {
-	margin-top: 10px;
+	/*margin-top: 10px;*/
+	line-height: 1.5;
 	color: #6c6c6c;
 }
-#logo {
-	font-size: 5em;
-	font-family: 'Source Code Pro', 'Helvetica Neue', 'Arial', 'Helvetica';
+h1 {
+	font-family: 'Source Code Pro', 'Helvetica Neue', Helvetica, Arial;
+	font-size: 3em;
 	font-weight: 900;
-	margin-bottom: -10px;
+	color: #e93030;
+	margin-bottom: -15px;
+	/*color: #424242;*/
+}
+h1 span {
+	/*letter-spacing: 0;*/
+	padding-left: 10px;
+	font-size: 1.5em;
+	/*font-family: 'Source Code Pro', 'Helvetica Neue', 'Arial', 'Helvetica';*/
+	font-weight: 900;
+	/*margin-bottom: -10px;*/
 	/*padding-bottom: 5px;*/
+	color: #e93030;
 }
 #logo a {
 	color: #e93030;
@@ -41,9 +53,10 @@ header p {
 }
 #subhead {
 	font-size: 2.5em;
-	font-family: 'Pacifico', cursive;
+	/*font-family: 'Pacifico', cursive;*/
+	font-family: 'Source Code Pro', 'Helvetica Neue', Helvetica, Arial;
 	color: #1d8c8c;
-	margin: 0 auto;
+	margin: 0 auto 15px;
 	border-bottom: none;
 }
 section {
@@ -167,7 +180,6 @@ body{
 .jcarousel ul {
     width: 20000em;
     position: relative;
-
     /* Optional, required in this case since it's a <ul> element */
     list-style: none;
     margin: 0;
@@ -178,6 +190,7 @@ body{
     float: left;
 }
 .jcarousel-control-prev, .jcarousel-control-next {
+	z-index: 2;
 	position: absolute;
 top: 200px;
 width: 30px;
