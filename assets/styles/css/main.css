@@ -192,7 +192,8 @@ body{
 .jcarousel-control-prev, .jcarousel-control-next {
 	z-index: 2;
 	position: absolute;
-top: 200px;
+/*top: 200px;*/
+top: 50%;
 width: 30px;
 height: 30px;
 text-align: center;
@@ -209,10 +210,10 @@ border-radius: 30px;
 box-shadow: 0 0 2px #999;
 }
 .jcarousel-control-prev {
-	left: -50px;
+	left: 10px;
 }
 .jcarousel-control-next {
-	right: -50px;
+	right: 10px;
 }
 .jcarousel-control-prev.inactive, .jcarousel-control-next.inactive {
 	opacity: .5;
@@ -251,10 +252,10 @@ nav {
 }
 @media all and (max-width: 799px){
 	section {
-		width: 90%;
+		width: 95%;
 	}
 	h2 {
-		width: 90%;
+		width: 95%;
 	}
 }
 @media all and (max-width: 610px) {
