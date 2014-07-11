@@ -8,6 +8,9 @@ $(document).ready (function() {
 
                 if (width >= 1600) {
                     width = width / 2;
+                }
+                else if (width <= 800) {
+                	width = width;
                 } 
 //                else if (width >= 350) {
 //                    width = width / 2;
