@@ -75,6 +75,9 @@ section {
 .description p.tech {
 	color: #a3a3a3;
 }
+.sliderwrap {
+	margin: 0 auto;
+}
 .jcarousel-wrap p, .jcarousel-wrap h3 {
 	text-align: left;
 }
