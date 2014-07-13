@@ -75,7 +75,11 @@ section {
 .description p.tech {
 	color: #a3a3a3;
 }
-.sliderwrap {
+/*.sliderwrap {
+	margin: 0 auto;
+}*/
+.flexslider {
+	max-width: 800px;
 	margin: 0 auto;
 }
 .jcarousel-wrap p, .jcarousel-wrap h3 {

@@ -24,13 +24,27 @@
 //        });
 //});
 
-$(document).ready(function() {
-	$('.bxslider').bxSlider({
-		minSlides: 2,
-		maxSlides: 2,
-		slideWidth: 800,
-		slideMargin: 10,
+//$(document).ready(function() {
+//	$('.bxslider').bxSlider({
+//		minSlides: 2,
+//		maxSlides: 2,
+//		slideWidth: 800,
+//		slideMargin: 10,
 //		adaptiveHeight: true,
-		mode: 'fade'
+//		mode: 'fade'
+//	});
+//});
+
+$(document).ready(function () {
+	$('.flexslider').flexslider({
+//		itemWidth: 500,
+//		itemMargin: 10,
+		animation: "slide",
+		slideshow: false,
+		directionNav: true,
+		controlNav: false,
+//		minItems: 1,
+//		maxItems: 2,
+		touch: true
 	});
 });
