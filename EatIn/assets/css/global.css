@@ -1,0 +1,248 @@
+/*Custom fonts linked in /assets/fonts*/
+@font-face {
+	font-family: Couture;
+	src: url(../fonts/COUTURE-Bold.ttf);
+}
+@font-face {
+	font-family: "Arial Rounded Bold";
+	src: url(../fonts/Arial Rounded Bold.ttf);
+}
+body {
+	background: url(../img/bamboo-cutting-board.jpg) no-repeat center -10px;
+	background-position: 50% -10px;
+}
+body p, label {
+	color: #9DDDC8;
+}
+body label {
+	font-weight: normal;
+}
+.container input:not([type=checkbox]) {
+	width: 100%;
+}
+.container ul {
+	margin-top: 10px;
+	list-style: none;
+}
+.container h1, h2, form > legend {
+	font-family: Couture;
+	color: #5fad87;
+}
+#detail-result .form-group>img {
+	margin-left: auto;
+	margin-right: auto;
+}
+#about > h2 {
+	text-align: center;
+}
+#about {
+	font-family: "Arial Rounded Bold";
+	color: black;
+}
+#about a {
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+.col-left {
+	background: rgba(242, 239, 219, .5);
+	border-radius: 4px;
+}
+.navbar {
+	background: none;
+	border: none;
+}
+nav ul {
+	padding-left: 0px;
+}
+nav ul li {
+	display: inline-block;
+}
+.nav-right {
+	float: right;
+}
+#ingredient-list {
+	color: black;
+}
+#ingredient-list label{
+	color: black;
+}
+#prep-list {
+	margin-top: 10px;
+	text-align: center;
+}
+#prep-list li {
+	margin: 5px auto;
+}
+#attribution {
+	text-align: center;
+	/*background: rgba(242, 239, 219, .5);*/
+}
+#attribution > ul {
+	padding: 0px;
+}
+#attribution {
+	padding-left: 45px;
+}
+form legend {
+	text-align: center;
+}
+#detail-result img{
+	max-width: 100%;
+}
+#list-container {
+	margin-left: auto;
+	margin-right: auto;
+}
+#list-container h3, h4, h5 {
+	font-family: "Arial Rounded Bold", Arial;
+	text-decoration: none;
+	color: black;
+}
+#searchform {
+	background: none;
+}
+.btn-group {
+	text-align: center;
+}
+.btn-green:hover, .btn-green:focus {
+	color: white;
+	text-decoration: none;
+}
+.btn-green {
+	text-align: center;
+	display: inline-block;
+	cursor: pointer;
+	padding: 14px 10px 10px;
+	font-family: Couture;
+	font-size: 18px;
+	color: white;
+	background-color: #5fad87;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+#btn-goto-source {
+	font-size: 14px;
+}
+#btn-fav {
+	margin-top: 10px;
+	font-family: "Arial Rounded Bold", Arial, Helvetica, sans-serif;
+}
+#btn-fav .glyphicon{
+	color: #fc7647;
+}
+.recipe-title {
+	margin-top: 3px;
+}
+.result-table {
+	background: rgba(242, 239, 219, .5);
+}
+.result-table a {
+	text-decoration: none;
+}
+.result-table tr:hover{
+	cursor: pointer;
+}
+.result-table > tbody > tr > td > h5{
+	margin-bottom: 0px;
+}
+#login-form p {
+	margin-top: 10px;
+}
+nav .glyphicon {
+	color: #5fad87;
+	font-size: 30px;
+	float: right;
+	margin: 10px 10px;
+}
+/*Should prevent user selecting items in tables and forms*/
+form, table {
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
+::-webkit-input-placeholder {
+   color: #fc7647;
+   font-style: bold;
+}
+:-moz-placeholder { /* Firefox 18- */
+   color: #fc7647;
+   font-style: bold;  
+}
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #fc7647;
+   font-style: bold;  
+}
+:-ms-input-placeholder {  
+   color: #fc7647;
+   font-style: bold;  
+}
+#ingredient-list h3{
+		margin-top: 0px;
+}
+/*Settings for screens less than 400 pixels wide*/
+@media (max-width: 400px){
+	.form-group {
+		padding: 0px;
+	}
+	.container h1, h2, form > legend {
+	font-size: 18px;
+	font-family: Couture;
+	color: #5fad87;
+	}
+	nav .glyphicon {
+	font-size: 25px;
+	}
+	.input-lg {
+		height: 30px;
+		font-size: 14px;
+	}
+	.btn-green {
+		padding: 10px 7px 7px;
+		font-size: 14px;
+	}
+	#list-container h4, #detail-result h4, #about h4 {
+		font-size: 14px;
+	}
+	#list-container h3, #detail-result h3, #about h3 {
+		font-size: 16px;
+	}
+}
+/*For screens up to 767 pixels wide*/
+@media (max-width: 767px) {
+	#about ul{
+		padding: 0px;
+	
+	}
+	#logo {
+		width: 30%;
+	}
+	#logo img {
+		width: 100%;
+	}
+	nav {
+		background-color: #e2d8c1;
+	}
+	.nav-right {
+		margin-top: -5px;
+	}
+	#btn-group {
+		text-align: left;
+	}
+	
+	#ingredient-list ul {
+		padding-left: 0px;
+		
+	}
+	#prep-list {
+		margin-top: 0px;
+	}
+}

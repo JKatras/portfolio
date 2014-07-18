@@ -15,7 +15,7 @@ header {
 #projects {
 	text-align: left;
 }
-#projects h2 {
+#projects h2, .source {
 	text-align: center;
 }
 a, p, h1 {
@@ -93,6 +93,25 @@ section {
 	padding-right: 5px;
 	display: inline-block;
 }
+.source {
+	margin-bottom: 20px;
+}
+.btn-github {
+	background: #f4f4f4 url('../../images/github-logo.png') no-repeat center;
+}
+.btn-link {
+	background: #f5f5f5 url('../../images/rtArrow.png') no-repeat center;
+}
+.btn-github, .btn-link {
+	display: inline-block;
+	margin: 0 15px;
+	padding: 6px;
+	border: 1px solid #888;
+	border-radius: 30px;
+	background-size: 32px 32px;
+	width: 39px;
+	height: 39px;
+}
 .flexslider {
 	max-width: 750px;
 	margin: 0 auto;
@@ -146,7 +165,7 @@ h2 {
 	font-size: 2em;
 	color: #e93030;
 }
-.btn-email:hover {
+.btn-email:hover, .btn-github:hover, .btn-link:hover {
 	box-shadow: 0px 2px 2px #444;
 }
 .social-media a{
@@ -280,12 +299,16 @@ nav {
 		max-height: 250px;
 	}
 	.description {
-		margin: 5px auto 15px;
+		margin: 5px auto 10px;
 	}
 	.description h3 {
 		font-size: 1em;
 	}
 	.description p {
 		font-size: .9em;
+	}
+	.btn-github, .btn-link {
+		margin: 0 5px;
+		padding: 3px;
 	}
 }
