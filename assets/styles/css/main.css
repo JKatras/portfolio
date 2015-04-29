@@ -34,7 +34,7 @@ p {
 	font-family: 'Helvetica Neue', 'Arial', 'Helvetica';
 	font-weight: 400;
 }
-header p, #contact > p {
+.muted, .description p.muted {
 	line-height: 1.5;
 	color: #6c6c6c;
 }
@@ -145,13 +145,11 @@ h2 {
 	padding-bottom: 5px;
 }
 .email {
-	/*margin: 10px 0 20px;*/
-	margin: 20px 0;
+	margin: 40px 0;
 }
 .email p {
 	margin-top: 5px;
 	font-size: 1.5em;
-	/*color: #424242;*/
 	color: #1d8c8c;
 }
 .btn-email {
