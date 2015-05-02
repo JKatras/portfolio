@@ -225,28 +225,65 @@ nav {
 	background-color: rgba(250, 249, 192, 1.0);
 	z-index: 100;
 }
-/*.btn-palette {
-
-	display: block;
-	border: 1px solid #d9d9d9;
-	background-color: #f4f4f4;
-	border-radius: 27px;
-	height: 54px;
-	width: 54px;
-	color: #d9d9d9;
+/*----------SVG style + animation--------------*/
+svg {
+	/*width: 100%;*/
+	/*margin: auto;
+	display: block;*/
 }
-.btn-palette:hover {
-	box-shadow: 2px 2px 1px #ccc;
+@keyframes waves {
+	0% { transform: translate(0px,0px);}
+	25% { transform: translate(-15px,4px);}
+	50% { transform: translate(-30px,-4px);}
+	75% { transform: translate(-45px,4px);}
+	100% { transform: translate(-60px,-4px); }
 }
-#or-te-ye {
-	background: linear-gradient(
-  	#e93030,
-  	#e93030 18px,
-  	#1d8c8c 18px,
-  	#1d8c8c 36px,
-  	#f8f6e3 36px
-	);
-}*/
+@-webkit-keyframes waves {
+	0% { transform: translate(0px,0px);}
+	25% { transform: translate(-15px,4px);}
+	50% { transform: translate(-30px,-4px);}
+	75% { transform: translate(-45px,4px);}
+	100% { transform: translate(-60px,-4px); }
+}
+@keyframes waves-rt {
+	0% { transform: translate(0px,16px);}
+	25% { transform: translate(7px,0px);}
+	50% { transform: translate(14px,16px);}
+	75% { transform: translate(21px,0px);}
+	100% { transform: translate(28px,16px);}
+}
+@-webkit-keyframes waves-rt {
+	0% { transform: translate(0px,16px);}
+	25% { transform: translate(7px,0px);}
+	50% { transform: translate(14px,16px);}
+	75% { transform: translate(21px,0px);}
+	100% { transform: translate(28px,16px);}
+}
+.st1 {
+	animation: waves-rt 4s alternate ease-in-out infinite;
+	-webkit-animation: waves-rt 4s alternate ease-in-out infinite;
+	-moz-animation: waves-rt 4s alternative ease-in-out infinite;
+}
+.st2 {
+	animation: waves 3s alternate ease-in-out infinite;
+	-webkit-animation: waves 3s alternate ease-in-out infinite;
+	-moz-animation: waves 3s alternate ease-in-out infinite;
+}
+.st3 {
+	animation: waves-rt 3s alternate ease-in-out .5s infinite;
+	-webkit-animation: waves-rt 3s alternate ease-in-out .5s infinite;
+	-moz-animation: waves-rt 3s alternate ease-in-out .5s infinite;
+}
+.st4 {
+	animation: waves 2.5s alternate ease-in-out infinite;
+	-webkit-animation: waves 2.5s alternate ease-in-out infinite;
+	-moz-animation: waves 2.5s alternate ease-in-out infinite;
+}
+.st5 {
+	animation: waves-rt 2.5s alternate ease-in-out infinite;
+	-webkit-animation: waves-rt 2.5s alternate ease-in-out infinite;
+	-moz-animation: waves-rt 2.5s alternate ease-in-out infinite;
+}
 @media all and (max-width: 799px){
 	section {
 		width: 95%;

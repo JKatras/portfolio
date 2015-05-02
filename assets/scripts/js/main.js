@@ -34,5 +34,6 @@ $(document).ready(function () {
     }
     scrollTo('#scroll-skills', '#skills');
     scrollTo('#scroll-projects', '#projects');
+    scrollTo('#scroll-experience', '#experience')
     scrollTo('#scroll-contact', '#contact');
 });
