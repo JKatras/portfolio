@@ -29,7 +29,7 @@ a, p, h1 {
 header a {
 	color: inherit;
 }
-p {
+p, #experience li {
 	font-size: 1em;
 	font-family: 'Helvetica Neue', 'Arial', 'Helvetica';
 	font-weight: 400;
@@ -83,7 +83,7 @@ section {
 	color: #424242;
 	margin-top: 0;
 }
-.description p.tech {
+.description p.tech, #experience p a {
 	color: #1d8c8c;
 }
 .description h3 {
@@ -130,7 +130,7 @@ h2 {
 	margin: 15px auto;
 }
 
-#skills p, #contact a, .email p {
+#skills p, #contact a, #experience li strong, .email p {
 	font-family: 'Pathway Gothic One', Arial, sans-serif;
 }
 #skills p {
@@ -143,6 +143,17 @@ h2 {
 }
 #skills ul li {
 	padding-bottom: 5px;
+}
+#experience ul {
+	
+}
+#experience li strong {
+	font-size: 1.5em;
+	color: #424242;
+	padding: 0 5px 0 0;
+}
+#experience li {
+	margin: 0 0 5px;
 }
 .email {
 	margin: 40px 0;
@@ -227,9 +238,7 @@ nav {
 }
 /*----------SVG style + animation--------------*/
 svg {
-	/*width: 100%;*/
-	/*margin: auto;
-	display: block;*/
+	margin-bottom: -40px;
 }
 @keyframes waves {
 	0% { transform: translate(0px,0px);}
@@ -284,6 +293,15 @@ svg {
 	-webkit-animation: waves-rt 2.5s alternate ease-in-out infinite;
 	-moz-animation: waves-rt 2.5s alternate ease-in-out infinite;
 }
+@media all and (max-width: 810px) {
+	nav ul li {
+		margin: 0 20px;
+		padding: 5px 10px;
+	}
+	nav.static ul li a {
+		font-size: 1.2em;
+	}
+}
 @media all and (max-width: 799px){
 	section {
 		width: 95%;
@@ -293,17 +311,12 @@ svg {
 	}
 }
 @media all and (max-width: 610px) {
-	nav ul li {
+/*	nav ul li {
 		margin: 0 20px;
 		padding: 5px 10px;
 	}
 	nav.static ul li a {
 		font-size: 1.2em;
-	}
-	/*.btn-palette {
-		border-radius: 13px;
-		height: 26px;
-		width: 26px;
 	}*/
 	#logo {
 		font-size: 3em;
@@ -326,6 +339,15 @@ svg {
 	#skills p, .email p {
 		font-size: 1.25em;
 	}
+	#experience p {
+		font-size: .75em;
+	}
+	#experience li{
+		font-size: .9em;
+	}
+	#experience li strong {
+		font-size: 1.25em;
+	}
 	h2 {
 		font-size: 1.75em;
 		margin-top: 10px;
@@ -342,8 +364,23 @@ svg {
 	.description p {
 		font-size: .9em;
 	}
+	#experience ul {
+		text-align: left;
+		padding: 0 0 0 10px;
+	}
 	.btn-github, .btn-link {
 		margin: 0 5px;
 		padding: 3px;
+	}
+}
+@media all and (max-width: 445px) {
+	nav.static ul li {
+		/*margin: 0 10px;*/
+		margin: 0;
+	}
+}
+@media all and (max-width: 362px) {
+	nav.static ul li a{
+		font-size: 1em;
 	}
 }
