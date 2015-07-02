@@ -15,59 +15,6 @@
 	<script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
 	<script src="assets/scripts/js/jquery.flexslider-min.js" type="text/javascript"></script>
 	<script src="assets/scripts/js/main.js" type="text/javascript"></script>
-	<style>@keyframes waves {
-	0% { transform: translate(0px,0px);}
-	25% { transform: translate(-15px,4px);}
-	50% { transform: translate(-30px,-4px);}
-	75% { transform: translate(-45px,4px);}
-	100% { transform: translate(-60px,-4px); }
-}
-@-webkit-keyframes waves {
-	0% { transform: translate(0px,0px);}
-	25% { transform: translate(-15px,4px);}
-	50% { transform: translate(-30px,-4px);}
-	75% { transform: translate(-45px,4px);}
-	100% { transform: translate(-60px,-4px); }
-}
-@keyframes waves-rt {
-	0% { transform: translate(0px,16px);}
-	25% { transform: translate(7px,0px);}
-	50% { transform: translate(14px,16px);}
-	75% { transform: translate(21px,0px);}
-	100% { transform: translate(28px,16px);}
-}
-@-webkit-keyframes waves-rt {
-	0% { transform: translate(0px,16px);}
-	25% { transform: translate(7px,0px);}
-	50% { transform: translate(14px,16px);}
-	75% { transform: translate(21px,0px);}
-	100% { transform: translate(28px,16px);}
-}
-.st1 {
-	animation: waves-rt 4s alternate ease-in-out infinite;
-	-webkit-animation: waves-rt 4s alternate ease-in-out infinite;
-	-moz-animation: waves-rt 4s alternative ease-in-out infinite;
-}
-.st2 {
-	animation: waves 3s alternate ease-in-out infinite;
-	-webkit-animation: waves 3s alternate ease-in-out infinite;
-	-moz-animation: waves 3s alternate ease-in-out infinite;
-}
-.st3 {
-	animation: waves-rt 3s alternate ease-in-out .5s infinite;
-	-webkit-animation: waves-rt 3s alternate ease-in-out .5s infinite;
-	-moz-animation: waves-rt 3s alternate ease-in-out .5s infinite;
-}
-.st4 {
-	animation: waves 2.5s alternate ease-in-out infinite;
-	-webkit-animation: waves 2.5s alternate ease-in-out infinite;
-	-moz-animation: waves 2.5s alternate ease-in-out infinite;
-}
-.st5 {
-	animation: waves-rt 2.5s alternate ease-in-out infinite;
-	-webkit-animation: waves-rt 2.5s alternate ease-in-out infinite;
-	-moz-animation: waves-rt 2.5s alternate ease-in-out infinite;
-}</style>	
 </head>
 <body>
 	<div class="container">
@@ -111,7 +58,8 @@
 		</section>
 		<section id="projects">
 		<h2>Projects</h2>
-		<div class="flexslider">
+			<div class="project">
+				<div class="flexslider">
 			<ul class="slides">
 				<li>
 					<img src="assets/images/eatin_screen_sm.png" alt="EatIn homepage" />
@@ -124,16 +72,18 @@
 				</li>
 			</ul>
 		</div>
-		<div class="description">
+				<div class="description">
 	   		<h3>EatIn</h3>
 	   		<p>A mobile-first web application to help find recipes by ingredient.</p>
 	   		<p class="tech">Technologies used: HTML, CSS, AngularJS, Bootstrap 3, Yummly API</p>
    		</div>
-   		<div class="source">
+   			<div class="source">
 	   		<a class="btn-link" href="http://jkatras.com/Eatin/index.html" target="_blank"></a>
 	   		<a class="btn-github" href="https://github.com/JKatras/MDD" target="_blank"></a>
 	   	</div>
-   		<div class="flexslider">
+   		</div>
+   		<div class="project">
+   			<div class="flexslider">
    			<ul class="slides">
 				<li>
 					<img src="assets/images/MO_screen_home.png" alt="mandiohmie.com" />
@@ -155,14 +105,15 @@
 				</li>
 			</ul>
    		</div>
-   		<div class="description">
+   			<div class="description">
 	   		<h3>MandiOhmie</h3>
 	   		<p>A template site for a small business, includes Content Management System.</p>
 	   		<p class="tech">Technologies used: HTML, CSS, PHP/CodeIgniter, MySQL, Foundation 5 </p>
 	   		<p class="muted">&#40;Site is no longer hosted&#41;</p>
 	   	</div>
-	   	<div class="source">
+	   		<div class="source">
 	   		<a class="btn-github" href="https://github.com/JKatras/PPW/tree/codeigniter-branch/OhmieMandi" target="_blank"></a>
+	   	</div>
 	   	</div>
    		</section>
    		<section id="experience">
@@ -175,7 +126,7 @@
    				<li><strong>Bootstrapping</strong> Unifying styles under one visual framework</li>
    				<li><strong>SVG/CSS Animation:</strong></li>
    			</ul>
-   			<svg viewBox="0 100 600 900" width="100%" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" enable-background="new 0 0 1366 786" xml:space="preserve">
+   			<svg viewBox="0 100 900 600" width="100%" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" enable-background="new 0 0 1366 786" xml:space="preserve">
 <rect x="-3" y="-2" display="none" fill="#B6E3F5" width="1372" height="792"/>
 <rect x="-3" y="-2" display="none" fill="url(#New_Pattern_Swatch_3)" width="1372" height="792"/>
 <g display="none">
@@ -5037,7 +4988,7 @@
    				<use xlink:href="assets/images/test.svg#Layer_1"></use>
    			</svg>-->
    			<!--<embed type="image/svg+xml" src="assets/images/test.svg" width="100%"/>-->
-   			<p class="muted">Design Copyright 2015, <a href="http://konigmedia.com" target="_blank">Joe Koenig</a></p>
+   			<p class="credit">Design Copyright 2015, <a href="http://konigmedia.com" target="_blank">Joe Koenig</a></p>
    		</section>
    		<section id="contact">
    		<h2>Contact</h2>

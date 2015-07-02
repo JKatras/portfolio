@@ -8,6 +8,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 body {
 	min-width: 240px;
 	text-align: center;
+	/*background: #f5f5f5 url('../../images/abstract.png') no-repeat left top;*/
 }
 header {
 	padding-top: 50px;
@@ -17,6 +18,9 @@ header {
 }
 #projects h2, .source {
 	text-align: center;
+}
+.project{
+	margin-bottom: 45px;
 }
 a, p, h1 {
 	-webkit-touch-callout: none;
@@ -37,6 +41,16 @@ p, #experience li {
 .muted, .description p.muted {
 	line-height: 1.5;
 	color: #6c6c6c;
+}
+.credit{
+	color: #f4f4f4;
+	text-align: right;
+	margin-top: -26px;
+	padding-right: 5px;
+	font-size: .75em;
+}
+.credit > a {
+	color: #23aeae;
 }
 h1 {
 	font-family: 'Source Code Pro', 'Helvetica Neue', Helvetica, Arial;
@@ -68,6 +82,7 @@ h1 span {
 section {
 	display: inline-block;
 	width: 80%;
+	margin-top: 20px;
 }
 .flexslider .slides > li {
 	max-height: 450px;
@@ -83,7 +98,7 @@ section {
 	color: #424242;
 	margin-top: 0;
 }
-.description p.tech, #experience p a {
+.description p.tech{
 	color: #1d8c8c;
 }
 .description h3 {
@@ -94,7 +109,7 @@ section {
 	display: inline-block;
 }
 .source {
-	margin-bottom: 45px;
+	margin-top: 10px;
 }
 .btn-github {
 	background: #f4f4f4 url('../../images/github-logo.png') no-repeat center;
@@ -144,8 +159,8 @@ h2 {
 #skills ul li {
 	padding-bottom: 5px;
 }
-#experience ul {
-	
+#experience {
+	margin-top: 0;
 }
 #experience li strong {
 	font-size: 1.5em;
@@ -217,6 +232,7 @@ li {
 }
 .container {
 	min-height: 550px;
+	/*background: #f5f5f5 url('../../images/abstract.png') no-repeat left top;*/
   /*background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f8f6e3), to(#fff));*/
   /* Safari 5.1, Chrome 10+ */
   /*background: -webkit-linear-gradient(top, #fff, #caec85);*/
@@ -237,9 +253,9 @@ nav {
 	z-index: 100;
 }
 /*----------SVG style + animation--------------*/
-svg {
+/*svg {
 	margin-bottom: -40px;
-}
+}*/
 @keyframes waves {
 	0% { transform: translate(0px,0px);}
 	25% { transform: translate(-15px,4px);}
