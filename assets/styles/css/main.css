@@ -144,7 +144,6 @@ h2 {
 	width: 100%;
 	margin: 15px auto;
 }
-
 #skills p, #contact a, #experience li strong, .email p {
 	font-family: 'Pathway Gothic One', Arial, sans-serif;
 }
@@ -169,6 +168,16 @@ h2 {
 }
 #experience li {
 	margin: 0 0 5px;
+}
+.design-thumb{
+	display: inline-block;
+	margin: 0 15px;
+	padding: 10px;
+	border: 1px solid #888;
+	/*border-radius: 30px;*/
+	background-size: 80px 80px;
+	width: 80px;
+	height: 80px;
 }
 .email {
 	margin: 40px 0;
@@ -232,16 +241,6 @@ li {
 }
 .container {
 	min-height: 550px;
-	/*background: #f5f5f5 url('../../images/abstract.png') no-repeat left top;*/
-  /*background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f8f6e3), to(#fff));*/
-  /* Safari 5.1, Chrome 10+ */
-  /*background: -webkit-linear-gradient(top, #fff, #caec85);*/
-  /* Firefox 3.6+ */
-  /*background: -moz-linear-gradient(top, #fff, #f8f6e3);*/
-  /* IE 10 */
-  /*background: -ms-linear-gradient(top, #fff, #f8f6e3);*/
-  /* Opera 11.10+ */
-  /*background: -o-linear-gradient(top, #fff, #f8f6e3);*/
 }
 nav {
 	box-shadow: 0px 1px 1px #bbb;
